@@ -1,1 +1,1 @@
-alias nvim="vim"
+alias vim="nvim"

@@ -1,6 +1,9 @@
 # Linuxbrew
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
+# Set Editor
+export EDITOR="nvim"
+
 # Load p10k instant prompt
 [ -f ~/.config/zsh/instant-prompt.zsh ] && source ~/.config/zsh/instant-prompt.zsh 
 
