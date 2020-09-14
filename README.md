@@ -1,2 +1,2 @@
 # dotfiles
-My Dotfiles!
+Assumes ZSH and Homebrew are installed
