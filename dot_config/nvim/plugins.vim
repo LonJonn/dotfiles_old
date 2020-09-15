@@ -22,3 +22,4 @@ call plug#end()
 " Load plugin configs
 source $HOME/.config/nvim/plug-conf/NERDTree.vim
 source $HOME/.config/nvim/plug-conf/nvim-lsp.vim
+source $HOME/.config/nvim/plug-conf/fzf.vim
