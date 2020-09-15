@@ -26,15 +26,15 @@ plugins=(
 )
 
 # OH MY ZSH & p10k
-source $ZSH/oh-my-zsh.sh
-source ~/.p10k.zsh
+[ -f $ZSH/oh-my-zsh.sh ] && source $ZSH/oh-my-zsh.sh
+[ -f ~/.p10k.zsh ] && source ~/.p10k.zsh
 
 # Configs
-source ~/.config/zsh/fzf.zsh
-source ~/.config/zsh/java.zsh
-source ~/.config/zsh/homebrew.zsh
-source ~/.config/zsh/autosuggest.zsh
+[ -f ~/.config/zsh/fzf.zsh ] && source ~/.config/zsh/fzf.zsh
+[ -f ~/.config/zsh/java.zsh ] && source ~/.config/zsh/java.zsh
+[ -f ~/.config/zsh/homebrew.zsh ] && source ~/.config/zsh/homebrew.zsh
+[ -f ~/.config/zsh/autosuggest.zsh ] && source ~/.config/zsh/autosuggest.zsh
 
 # Personal
-source ~/.config/zsh/functions.zsh
-source ~/.config/zsh/aliases.zsh
+[ -f ~/.config/zsh/functions.zsh ] && source ~/.config/zsh/functions.zsh
+[ -f ~/.config/zsh/aliases.zsh ] && source ~/.config/zsh/aliases.zsh

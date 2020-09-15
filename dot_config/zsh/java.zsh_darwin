@@ -1,9 +1,0 @@
- # Exports
- export JAVA_JDKS=/Library/Java/JavaVirtualMachines
- export JAVA_HOME="$JAVA_JDKS/jdk1.8.0_251.jdk/Contents/Home"
-
- # Functions to switch JDKs
- function jdk() {
- 	export JAVA_HOME=$(/usr/libexec/java_home -v"$1");
-	java -version
-}
