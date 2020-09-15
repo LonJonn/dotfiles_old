@@ -20,4 +20,5 @@ call plug#end()
 
 
 " Load plugin configs
-" source $HOME/.config/nvim/plug-conf/deoplete.vim
+source $HOME/.config/nvim/plug-conf/NERDTree.vim
+source $HOME/.config/nvim/plug-conf/nvim-lsp.vim
