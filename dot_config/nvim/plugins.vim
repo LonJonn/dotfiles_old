@@ -20,5 +20,4 @@ call plug#end()
 
 
 " Load plugin configs
-" [ -f $HOME/.config/nvim/plug-conf/coc.vim ] && source $HOME/.config/nvim/plug-conf/coc.vim
 " source $HOME/.config/nvim/plug-conf/deoplete.vim
