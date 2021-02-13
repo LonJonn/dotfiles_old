@@ -23,6 +23,7 @@ plugins=(
 	zsh-syntax-highlighting
 	zsh-autosuggestions
 	z
+	dotnet
 )
 
 # OH MY ZSH & p10k
